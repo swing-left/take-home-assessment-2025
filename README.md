@@ -28,6 +28,8 @@ Alternatively, you may submit an equivalent open-source code sample you have wri
 - Is the code clean and accessible to others?
 - Does the code handle edge case conditions?
 
+For the UX, we are not evaluating on overall graphic design or style, but please make sure that the UI is clean and usable on both desktop and mobile web browsers.
+
 ## Time Limit
 
 The purpose of the test is not to measure the speed of code creation. Please try to finish by the end of Wednsday, June 25, but extra allowances are fine and will not be strictly penalized.
