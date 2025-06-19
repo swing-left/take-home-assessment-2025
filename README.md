@@ -4,31 +4,50 @@
 
 - [Evaluation](#evaluation)
 - [What we are looking for](#what-we-are-looking-for)
-- [Time limit](#time-limit)
-- [What we are looking for](#questions-or-concerns)
+- [Submitting your code](#submitting-your-code)
+- [Questions or Concerns](#questions-or-concerns)
+- [Running the code](#running-the-code)
 
 ## Evaluation
 
-1. Using the provided state_registration.csv use the language and ORM framework of your choice to parse and store the info from the state_registration.csv for each state into a sqlite database.
-2. Create an api endpoint that will return a schema of the representing the data that you stored in your database.
-3. Create a UI that displays the list of all the states and their voter information. The user should be able to filter by state.
-4. Write tests to validate the api call.
-5. Include a Readme that describes the steps necessary for building and running the application as well as running the tests locally.
+1. Using the provided state_registration.csv, use the language and ORM framework of your choice to parse and store the info from state_registration.csv for each state into a sql database (This is already done in the sample provided). This is a sample of old data taken from various voter registration sites in 2018, and does not represent the current reality of these states. It should only be used for the purposes of this exercise.
+2. Create a UI that displays the list of all the states and their voter information. The user should be able to filter and sort this table.
+3. Create an api endpoint that will retrieve the data for this table from the backend DB.
+4. Write tests to validate the api call(s).
+5. Include a Readme (Or add to this one if you choose to clone this repo) that describes the steps necessary for building and running the application as well as running the tests locally.
 
 You may use any pattern or library that you find suitable to accomplish this assessment. Internally, we use Python and SQL Alchemy or NodeJS and Knex, depending on our project for the backend and for the front end we use React with Panda-UI and Chakra-UI for styling on the Next.Js framework for the front end.
 
-Alternatively you may submit an equivalent open-source code sample.
+Additionally, we have provided a sample hello-world framework which you may modify and use for this exercise. This sample already imports the voter data into a postgres DB, and sets up an API endpoint and frontend page for you to work from our use as an example.
+
+Alternatively, you may submit an equivalent open-source code sample you have written. If you choose to go with this route, please include as much detail as possible about which factors of your sample we should evaluate, and be prepared to discuss your code sample in the follow-up interview.
 
 ## What we are looking for
 
 - Does it work?
 - Is the code clean and accessible to others?
-- Does the code handle edge case conditions
+- Does the code handle edge case conditions?
 
 ## Time Limit
 
-The purpose of the test is not to measure the speed of code creation. Try to finish roughly within 72 hours of your initial start time but extra allowances are fine and will not be strictly penalized.
+The purpose of the test is not to measure the speed of code creation. Please try to finish by the end of Wednsday, June 25, but extra allowances are fine and will not be strictly penalized.
+
+## Submitting Your Code
+
+The preferred way to submit your code is to clone this repo, and open a pull request with your changes.
+Alternatively, you may submit the code in the form of a zip file and send it to dcarden@swingleft.org. If you do this, please be sure to include a README in your submission with full details on how to set up and run your code.
 
 ## Questions or Concerns
 
-If you have any questions at all, feel free to reach out to [derik@swingleft.org](mailto:derik@swingleft.org)
+If you have any questions at all, feel free to reach out to [dcarden@swingleft.org](mailto:dcarden@swingleft.org)
+
+## Running The Code
+
+[If you choose to clone this repo and work from the hello-world sample, please use the directions below. If you implement another solution using a different language or framework, please update these directions to reflect your code.]
+
+### Installation
+
+1. pull down the repo.
+2. `npm install --no-save`
+3. `npm run db:create-db`
+4. `npm run dev`
