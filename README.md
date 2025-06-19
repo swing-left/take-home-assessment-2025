@@ -16,9 +16,9 @@
 4. Write tests to validate the api call(s).
 5. Include a Readme (Or add to this one if you choose to clone this repo) that describes the steps necessary for building and running the application as well as running the tests locally.
 
-You may use any pattern or library that you find suitable to accomplish this assessment. Internally, we use Python and SQL Alchemy or NodeJS and Knex, depending on our project for the backend and for the front end we use React with Panda-UI and Chakra-UI for styling on the Next.Js framework for the front end.
+You may use any pattern or library that you find suitable to accomplish this assessment. Internally, we use Python and SQL Alchemy (SwingLeft) or NodeJS and Knex (VoteForward) backend and for the frontend we use React with Panda-UI and Chakra-UI for styling on the Next.Js framework.
 
-Additionally, we have provided a sample hello-world framework which you may modify and use for this exercise. This sample already imports the voter data into a postgres DB, and sets up an API endpoint and frontend page for you to work from our use as an example.
+Additionally, we have provided a sample hello-world framework which you may modify and use for this exercise. This sample already imports the voter data into a postgres DB, and sets up an API endpoint and frontend page for you to work from or use as an example.
 
 Alternatively, you may submit an equivalent open-source code sample you have written. If you choose to go with this route, please include as much detail as possible about which factors of your sample we should evaluate, and be prepared to discuss your code sample in the follow-up interview.
 
@@ -28,7 +28,7 @@ Alternatively, you may submit an equivalent open-source code sample you have wri
 - Is the code clean and accessible to others?
 - Does the code handle edge case conditions?
 
-For the UX, we are not evaluating on overall graphic design or style, but please make sure that the UI is clean and usable on both desktop and mobile web browsers.
+For the UX, we do not expect a fancy graphic design or style, but please make sure that the UI is clean and usable on both desktop and mobile web browsers.
 
 ## Time Limit
 
