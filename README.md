@@ -45,7 +45,7 @@ If you have any questions at all, feel free to reach out to [dcarden@swingleft.o
 
 ## Running The Code
 
-[If you choose to clone this repo and work from the hello-world sample, please use the directions below. If you implement another solution using a different language or framework, please update these directions to reflect your code.]
+If you choose to clone this repo and work from the hello-world sample, please use the directions below. If you implement another solution using a different language or framework, please update these directions to reflect your code.
 
 ### Installation
 
