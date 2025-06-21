@@ -36,7 +36,7 @@ The purpose of the test is not to measure the speed of code creation. Please try
 
 ## Submitting Your Code
 
-The preferred way to submit your code is to clone this repo, and open a pull request with your changes.
+The preferred way to submit your code is to create a fork of this repo, push your changes to the forked repo, and then open a pull request for the new commit.
 Alternatively, you may submit the code in the form of a zip file and send it to dcarden@swingleft.org. If you do this, please be sure to include a README in your submission with full details on how to set up and run your code.
 
 ## Questions or Concerns
