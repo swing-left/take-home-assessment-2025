@@ -10,7 +10,7 @@
 
 ## Evaluation
 
-1. Using the provided state_registration.csv, use the language and ORM framework of your choice to parse and store the info from state_registration.csv for each state into a sql database (This is already done in the sample provided). This is a sample of old data taken from various voter registration sites in 2018, and does not represent the current reality of these states. It should only be used for the purposes of this exercise.
+1. Using the provided voter_registration_deadlines.csv, use the language and ORM framework of your choice to parse and store the info from voter_registration_deadlines.csv for each state into a sql database (This is already done in the sample provided). This is a sample of old data taken from various voter registration sites in 2018, and does not represent the current reality of these states. It should only be used for the purposes of this exercise.
 2. Create a UI that displays the list of all the states and their voter information. The user should be able to filter and sort this table.
 3. Create an api endpoint that will retrieve the data for this table from the backend DB.
 4. Write tests to validate the api call(s).
