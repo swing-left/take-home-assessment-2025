@@ -1,4 +1,55 @@
-# SL/VF Technical Take Home
+## Anthony Delphy Take Home Assessment - Swing Left and Vote Forward
+
+This is Anthony Delphy's submission for Swing Left and Vote Forward's technical assessment.
+This website has been optimized for mobile, tablet and desktop web browsers.
+
+The tech stack for this submission is:
+Frontend:   Next.js, React, Chakra UI, TypeScript
+Backend:	Next.js API Routes, PostgreSQL, pg
+Testing:	Jest
+
+## Installation Instructions
+
+Notes:
+Before running the project, make sure you have:
+- Node.js installed
+- PostgreSQL running locally
+
+Before running the app, add your PostgreSQL credentials to `create-db.js` and within src/app/api/sample_api/getVoterData.ts
+
+Steps:
+1. Clone the repository:
+
+2. Install necessary dependencies: npm install
+
+3. Create the database: npm run db:create-db
+
+4. Start the development server: npm run dev
+
+## Unit Testing
+
+Unit tests for the Sequelize, PostgreSQL, and API calls have been included in this submission. These utilize the Jest libary
+and are stored within src/apps/__tests__
+
+- route.test.ts: Tests the API calls and requests and ensures the functions properly catch successes/failures.
+- getVoterData.test.ts: Tests the sequelization of the voter_registration_deadlines.csv and ensures the functions properly catch successes/failures.
+
+To run these unit tests, run the command:
+npx jest
+
+## Potential Future Features
+
+There are various opportunities to incorporate additional UX/UI elements and additional libraries to improve the functionality and testing of this website.
+These were excluded from this version of the software to ensure that it meets the intial requirements of the assessment. 
+
+- Potential experiments with Firebase to allow for fast and easy-to-change data storage. 
+    This would be particularly benefitial in areas where voting information may change
+- A map of the U.S. showing the given data utilizing React Simple Maps (Supports up to React 18, not React 19, yet)
+- Future unit tests could include schema validation utilizing Zod
+- Deeper integrations/testing with hosted SQL databases.
+
+
+# Intial SL/VF Technical Take Home Instruction
 
 > Build a state voter registration search tool
 
