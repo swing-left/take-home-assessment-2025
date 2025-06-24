@@ -1,0 +1,7 @@
+h1 {
+    font-family: "Cocogoose",Impact,Helvetica,sans-serif;
+    font-weight: normal;
+    font-style: normal; 
+    color: #262d7d;
+    font-size: calc(1.325rem + 0.9vw)
+}
