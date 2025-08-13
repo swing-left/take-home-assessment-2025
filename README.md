@@ -20,11 +20,13 @@ You may use any pattern or library that you find suitable to accomplish this ass
 
 Additionally, we have provided a sample hello-world framework which you may modify and use for this exercise. This sample already imports the voter data into a postgres DB, and sets up an API endpoint and frontend page for you to work from or use as an example.
 
-Alternatively, you may submit an equivalent open-source code sample you have written. If you choose to go with this route, please include as much detail as possible about which factors of your sample we should evaluate, and be prepared to discuss your code sample in the follow-up interview.
+You are welcome to use AI tools on your code test. If you do, please submit your _entire chat transcript_. The mechanism to do this will depend on which tool you use. If you use a command line tool such as Claude Code, you can store a transcript via the "script" command on Mac and Unix/Linux systems. You can also include a zip of ~/.claude/projects/code-test (or similar) if you prefer, but please ensure you do not send materials for any other projects.
+
+Alternatively, you may submit an equivalent open-source code sample. If you do this, please only submit samples where you are the only contributor and sole author, or point us at specific commits where you were the sole author. As before, if you used AI to help generate the work, please give a detailed description of how it was used. If you choose to go with this route, please include as much detail as possible about which factors of your sample we should evaluate, and be prepared to discuss your code sample in the follow-up interview.
 
 ## What we are looking for
 
-- Does it work?
+- Does it work? _*Note that you can "mock" an aspect of your solution rather than fully implement it, for example if a feature you want to demonstrate requires additional data. Just be clear in your submission notes what was mocked.*_
 - Is the code clean and accessible to others?
 - Does the code handle edge case conditions?
 
@@ -32,18 +34,18 @@ For the UX, we do not expect a fancy graphic design or style, but please make su
 
 ## Time Limit
 
-The purpose of the test is not to measure the speed of code creation. Please try to finish by the end of Wednsday, June 25, but extra allowances are fine and will not be strictly penalized.
+The purpose of the test is not to measure the speed of code creation. Please try to finish within 5 days of being sent the code test, but extra allowances are fine and will not be strictly penalized.
 
 ## Submitting Your Code
 
 The preferred way to submit your code is to create a fork of this repo, push your changes to the forked repo, and then either:
 - open a pull request against the original repo from your forked repo
 - grant access to your forked repo to cardendmc and erhowell, so that we can access the code there.
-Alternatively, you may submit the code in the form of a zip file and send it to dcarden@swingleft.org. If you do this, please be sure to include a README in your submission with full details on how to set up and run your code.
+Alternatively, you may submit the code in the form of a zip file and send it to erhowell@swingleft.org. If you do this, please be sure to include a README in your submission with full details on how to set up and run your code.
 
 ## Questions or Concerns
 
-If you have any questions at all, feel free to reach out to [dcarden@swingleft.org](mailto:dcarden@swingleft.org)
+If you have any questions at all, feel free to reach out to [erhowell@swingleft.org](mailto:erhowell@swingleft.org)
 
 ## Running The Code
 
